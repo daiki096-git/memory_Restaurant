@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>プライバシーポリシー</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main style="max-width: 800px; margin: 24px auto; padding: 0 16px;">
+    <h1>プライバシーポリシー</h1>
+    <p>本アプリでは、地図上のピン情報（レストラン名、位置、感想）およびアップロードされた写真のURLを保存します。写真ファイル自体は AWS S3 に保存され、公開URLで表示されます。個人を特定できる情報は不要です。</p>
+    <h2>データの利用目的</h2>
+    <ul>
+      <li>地図上でのピン表示・検索</li>
+      <li>写真の表示</li>
+    </ul>
+    <h2>第三者提供</h2>
+    <p>写真ファイルは AWS S3 上に保存され、公開URLによりアクセス可能です。</p>
+    <h2>セキュリティ</h2>
+    <p>CSRF対策（ダブルサブミットトークン）と基本的な入力検証を実施しています。XSS対策として、表示時はサニタイズしています。</p>
+    <h2>お問い合わせ</h2>
+    <p>ご質問があれば、管理者までご連絡ください。</p>
+  </main>
+</body>
+</html>
