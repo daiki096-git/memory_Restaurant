@@ -1,0 +1,28 @@
+{
+  "name": "restaurant-info-app",
+  "version": "1.0.0",
+  "description": "A restaurant information management application using TypeScript, Node.js/Express, MySQL, and AWS S3.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "aws-sdk": "^2.1030.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "@types/express": "^4.17.13"
+  },
+  "author": "",
+  "license": "ISC"
+}
